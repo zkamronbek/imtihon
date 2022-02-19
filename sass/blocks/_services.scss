@@ -1,0 +1,125 @@
+.services{
+    // display: none;
+    padding:200px 0 395px;
+}
+.services__list{
+    @include rezet-list;
+}
+.services__list-item{
+display: flex;
+align-items:center;
+margin-bottom: 160px;
+&:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+&:nth-child(3n){
+    margin-bottom: 0;
+}
+}
+.services__content{
+    width: 445px;
+    margin-right: 220px;
+    &:nth-child(2n){
+        margin-right: 0;
+    }
+}
+.services__item-img{
+border-radius: 50%;
+}
+
+.services__item-title{
+    font-family:$space;
+font-size: 48px;
+letter-spacing: -2.14286px;
+color: #495567;
+margin-bottom: 50px;
+
+}
+.services__item-text{
+    font-family:$lexend;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    
+    margin-bottom: 50px;
+}
+.services__item-link{
+    padding: 14px 43px;
+}
+.services__list-item:nth-child(2n) .services__content{
+    margin-right: 0;
+    margin-left: 220px;
+}
+.abaut__list-item{
+    margin-bottom: 0;
+}
+@media only screen and (max-width:$tablet){
+    .services{
+        
+        padding:145px 0 104px;
+    }
+    .services__list{
+        @include rezet-list;
+    }
+    .services__list-item{
+        flex-direction:column-reverse;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 128px;
+    &:nth-child(2n){
+        flex-direction:column-reverse;
+    }
+    
+    &:nth-child(3n){
+        margin-bottom: 0;
+    }
+    }
+    .services__content{
+        width: 445px;
+        text-align: center;
+        margin-right:0;
+        &:nth-child(2n){
+            margin-left: 0;
+        }
+    }
+    .services__item-img{
+    border-radius: 50%;
+    margin-bottom: 56px;
+    // &:nth-child(3n){
+    //     margin-bottom: 0;
+    // }
+    }
+    .services__item-title{
+        font-family:$space;
+        font-size: 48px;
+        letter-spacing: -2.42857px;
+    color: #495567;
+    margin-bottom: 50px;
+    
+    }
+    .services__item-text{
+        font-family:$lexend;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin-bottom: 50px;
+    }
+    .services__item-link{
+        padding: 14px 43px;
+    }
+    .services__list-item:nth-child(2n) .services__content{
+        margin-right: 0;
+        margin-left:0;
+    }
+
+}
+@media only screen and (max-width:$mobile){
+    .services__item-title{
+        font-size: 32px;
+letter-spacing: -1.42857px;
+    }
+   
+}
+
+

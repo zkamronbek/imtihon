@@ -1,0 +1,126 @@
+.intro{
+    background: url("../../img/introbg.jpg") no-repeat center center;
+    background-size:cover;
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx){
+        background-image: url("../../img/introbg@2x.jpg");
+
+}
+.intro__content{
+    padding :152px 0 ;
+}
+.intro__text{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    margin-bottom: 40px;
+    font-family:$space;
+font-size: 56px;
+color: #FFFFFF;
+letter-spacing: -2.5px;
+}
+.intro__descreption{
+    // display: inline-block;
+    max-width: 405px;
+    margin: 0;
+    padding: 0;
+    margin-left: 105px;
+    margin-bottom: 40px;
+    font-family:$lexend;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+
+}
+
+.intro__link{
+    margin-left: 105px;
+}
+}
+
+@media only screen and (max-width:$tablet){
+    .intro{
+      background:url("../../img/intro-tablet.jpg") no-repeat center center;
+      background-size: cover;
+      @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx){
+        background-image: url("../../img/intro-tablet@2x.jpg");
+    }
+    
+    .intro__content{
+        padding:137px 0 217px;
+    text-align: center;
+    display: block;
+
+}
+.intro__text{
+    max-width: 573px;
+    margin: 0 auto;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+   margin-bottom: 24px;
+    
+}
+    .intro__descreption{
+        margin: 0 auto;
+        max-width: 573px;
+       text-align: center;
+ margin-bottom: 34px;
+}
+.intro__link{
+    margin-left: 0;
+text-align: center;
+}
+
+}
+} 
+@media only screen and (max-width:$mobile){
+    .intro{
+      background:url("../../img/intro-mobile.jpg") no-repeat center center;
+      background-size: cover;
+      @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx){
+        background-image: url("../../img/intro-mobile@2x.jpg");
+    }
+    
+    .intro__content{
+        padding:115px 0 179px;
+    text-align: center;
+    display: block;
+
+ 
+}
+.intro__text{
+    max-width: 311px;
+    font-size: 40px;
+margin-bottom: 24px;
+text-align: center;
+// letter-spacing: -1.78571px;
+    
+}
+    .intro__descreption{
+        margin-bottom: 34px;
+        max-width: 311px;
+        text-align: center;
+}
+
+
+}
+} 
+

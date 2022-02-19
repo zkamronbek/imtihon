@@ -1,0 +1,38 @@
+.intro__abaut--timer{
+
+
+    background-image: url("../../img/abaut-intro.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+&::before{
+    background-image: url("../../img/abaut-intro.svg");
+    background-position: center bottom 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    content: '';
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+    background-image: url("../../img/abaut-intr@2x.jpg");}
+    
+}
+.abaut{
+    padding: 72px 0 72px;
+    position: relative;
+}
+
+.intro__abaut-text{
+    font-family: $space;
+font-size: 56px;
+letter-spacing: -2.5px;
+color: #FFFFFF;
+
+
+}

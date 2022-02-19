@@ -1,0 +1,66 @@
+.faqs__title{
+    font-family:$space;
+font-size: 48px;
+text-align: center;
+letter-spacing: -2.14286px;
+color: #495567;
+margin-bottom: 64px;
+}
+.faqs__works{
+    display: flex;
+    
+}
+.works__title{
+    font-family:$space;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -1.78571px;
+color: #495567; 
+}
+.faqs__works-list{
+    @include rezet-list;
+    margin-bottom: 64px;
+    margin-left: 30px;
+}
+.faqs__works-item{
+    margin-bottom: 16px;
+    &:nth-child(3n){
+        margin-bottom: 0;
+    }
+}
+.faqs__works-button{
+    padding: 32px 334px 32px 40px;
+    font-family:$space;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -1.07143px;
+color: #495567;
+border: none;
+}
+.faqs__descrption{
+    margin: 0;
+    display: none;
+}
+
+
+
+
+.faqs__safe{
+    display: flex;
+}
+.safe__title{
+    font-family:$space;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -1.78571px;
+color: #495567;
+
+}
+.faqs__button{
+    font-family:$space;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -1.07143px;
+color: #495567;
+
+}

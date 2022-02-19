@@ -1,0 +1,22 @@
+
+.nav{
+   flex-grow: 1;
+}
+.nav__list{
+    @include rezet-list;
+   display: flex;
+}
+.nav__item{
+    margin: 0;
+    margin-right: 32px;
+&:nth-child(3n){
+    margin-right:0;
+}
+}
+.nav__item-link{
+    font-family:$space;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    
+}

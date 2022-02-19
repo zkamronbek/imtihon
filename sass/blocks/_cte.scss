@@ -1,0 +1,67 @@
+.cte{
+    // display: none;
+    
+    background-color: #495567;
+    background-image: url("../../img/cte-dumaloq.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.cte__bold{
+    padding: 102px 0 ;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.cte__content{
+    display: flex;
+  
+}
+.cte__title{
+    font-family:$space;
+font-size: 48px;
+letter-spacing: -2.14286px;
+color: #FFFFFF;
+width: 415px;
+margin-right: auto;
+}
+
+.cte__link-image{
+    margin-right: 18px;
+    // display: block;
+}
+@media only screen and (max-width:$tablet){
+    .cte{
+        background-color: #495567;
+        background-image: url("../../img/cte-tablet.svg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cte__bold{
+      display: block;
+        text-align: center;
+    padding: 62px 0;
+    }
+    .cte__link{
+        text-align: center;
+        display: inline-block;
+    }
+    .cte__title{
+    text-align: center;
+    margin-right: 0;
+       display:inline-block;
+    }
+    .cte__content{
+        text-align: center;
+        margin-top: 40px;
+        display: inline-block;
+    }
+  .cte__link-image{
+      display: flex;
+  }
+
+}
